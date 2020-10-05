@@ -13,7 +13,7 @@
     <p>
     All of the NMC portfolio stuff lives here!
     </p>
-        <div class = test>
+        <div class = "test" id = "test">
   This box comes from an external css file.
     </div>
 </body>
@@ -23,4 +23,5 @@
 var a = window.location.href;
 //console.log(a.split('#')[1]);
     console.log("hello");
+document.querySelector("test").innerHTML = "it worked!";
 }
