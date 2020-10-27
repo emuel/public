@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>NMC Portfolio</title>
+</head>
+
+<body>
+    <h1>Hello Kam</h1>
+   
+        <div class = "test" id = "test">
+  This box comes from an external css file.
+    </div>
+</body>
+</html>
+<script>
+    
+var a = window.location.href;
+console.log(a.split('#')[1]);
+   // console.log("hello");
+document.querySelector("#test").innerHTML = a.split('#')[1];
+</script>
